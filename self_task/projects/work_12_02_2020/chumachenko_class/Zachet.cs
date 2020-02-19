@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3_Chumachenko_Dedkov
 {
-    class za4et
+    class Zachet
     {
         public string StudentFio { get; set; }
         public string TeacherFio { get; set; }
@@ -16,7 +16,7 @@ namespace ConsoleApp3_Chumachenko_Dedkov
         {
             return ($"Зачет: {StudentFio} {TeacherFio} {Date} {Rating}");
         }
-        public za4et(string studentFio, string teacherFio, string date, int rating)
+        public Zachet(string studentFio, string teacherFio, string date, int rating)
         {
             StudentFio = studentFio;
             TeacherFio = teacherFio;
