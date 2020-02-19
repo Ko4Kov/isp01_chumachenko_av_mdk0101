@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3_Chumachenko_Dedkov
 {
-    class Robot9ga //служащий
+    class Robotyaga //служащий
     {
         public string Name { get; set; }
         public string Profession { get; set; }
@@ -15,7 +15,7 @@ namespace ConsoleApp3_Chumachenko_Dedkov
         {
             return ($"Роботяга: {Name} {Profession} {WorkExperience}");
         }
-        public Robot9ga(string name, string profession, int workExperience)
+        public Robotyaga(string name, string profession, int workExperience)
         {
             Name = name;
             Profession = profession;
